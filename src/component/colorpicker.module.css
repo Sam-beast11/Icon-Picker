@@ -1,0 +1,52 @@
+.menubox{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.menu{
+    display: flex;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    gap:10px;
+    overflow: hidden;
+}
+
+.icon{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 0;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    gap:10px;
+}
+
+.pagestatus{
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.icon:hover{
+    background-color: #d0d0d0;
+}
