@@ -21,7 +21,7 @@ function App() {
             </div>
           )}
           <button onClick={()=>setOpen((prevOpen)=>!prevOpen)} className='btn'>Choose Icons</button>
-          {open && <ColorPicker rowsInOnePage={4} columnsInOnePage={4} iconHeight={60} iconWidth={60} pickerHeight={550} pickerWidth={550} setOpen={setOpen} setSelectedImage={setSelectedImage} />}
+          {open && <ColorPicker rowsInOnePage={5} columnsInOnePage={5} iconHeight={80} iconWidth={80} pickerHeight={500} pickerWidth={500} setOpen={setOpen} setSelectedImage={setSelectedImage} />}
       </div>
     </div>
   );
